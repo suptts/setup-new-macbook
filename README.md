@@ -6,10 +6,14 @@ Recommendation apps for macOS 2023 (all free!!!)
 
 - [Install Chrome](#install-chrome)
 - [Install Homebrew](#install-homebrew)
+- [Install iTerm2](#install-iterm2)
+- [Install Git](#install-git)
+- [Install OhMyZsh](#install-ohmyzsh)
+- [Install Powerlevel10K](#install-powerlevel10k)
 - [Install Development Tools](#install-development-tools)
-- [VSCode extensions](#vscode-extensions)
-- [NODE and NVM](#node-and-nvm)
-- [SSH Key](#ssh-key)
+- [Install VSCode extensions](#install-vscode-extensions)
+- [Install NODE/NVM](#install-node/nvm)
+- [Setup SSH-Key](#setup-ssh-key)
 
 
 ## Install Chrome
@@ -32,8 +36,10 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 .zprofile เราสามารถใช้ nano หรือ vi เข้าไปอ่าน file content ส่วนคำสั่งที่ 2 เป็นการ register homebrew ไปที่ shell เราก็เรียกใช้งาน brew command ได้แล้วเช่น `brew --version` เป็นต้น
 
 ```bash
-echo 
-eval
+# Run คำสั่งเหล่านี้หลังการติตตั้ง Homebrew
+echo '# Set PATH, MANPATH, etc,, for Homebew.' >> /Users/scratch/.zprofile
+echo 'eval "$$(/opt/homebrew/bin/brew shellenv)"' >> /Users/scratch/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
