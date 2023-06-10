@@ -165,7 +165,7 @@ code .
 
 `plugins=(git·zsh-autosuggestions·zsh-syntax-highlighting·web-search)`
 
-ส่ัง reload ไฟล์นี้เพื่อให้มีผล
+ส่ัง reload ไฟล์นี้เพื่อให้มีผล (syntax highlight ทำให้คำส่ังมีสี, web-search ส่ังเปิด webbrowser เช่นพิมพ์ว่า `google zsh` มันจะค้นหาใน chrome ให้เรา
 
 `source ~/.zshrc`
 
