@@ -64,7 +64,9 @@ code .
 เราดูข้อมูลได้ด้วย vim หรือ vscode 
 
 `vim ~/.zprofile`
+
 หรือ
+
 `code ~/.zprofile`
 
 เพื่อทดสอบว่า nvm ติดตั้งแล้วใช้งานได้เราต้องปิดแล้วเปิด terminal ขึ้นมาใหม่ก่อน
@@ -96,7 +98,8 @@ ssh-add -K ~/.ssh/id_rsa
 # Copy the key to a server
 ssh-copy-id username@remote_host
 หรือ
-cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys \
+&& chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
 
 
 # Add new SSH key to Github or Other Providers (public key)
