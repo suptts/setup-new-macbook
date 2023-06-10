@@ -40,7 +40,44 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 # Run these two commands in your terminal to add Homebrew to your PATH:
     (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/supiwmi/.zprofile
     eval "$(/usr/local/bin/brew shellenv)"
+ 
+ # ตรวจสอบโดยการเช็ค version
+ brew --version
 ```
+## Install iTerm2
+
+เราติดตั้งด้วย brew command
+
+`brew install --cask iterm2`
+
+เมือติดตั้งแล้วให้เราเปลี่ยนมาใช้ iterm2 แทน 
+
+## Install Git
+
+เราติดตั้งด้วย brew command
+
+`brew install --cask git`
+
+## Install Oh My Zsh
+
+เราติดตั้งด้วย command
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+## Install PowerLevel10K
+
+จะเป็นการ Install PowerLevel10K Theme สำหรับ Oh My Zsh
+
+`git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
+
+จากนั้นให้เราเข้าเปิดไฟล์ ~/.zshrc เพื่อระบุ Theme ที่อยากได้ เช่นตัวอย่างนี้
+
+`ZSH_THEME="powerlevel10k/powerlevel10k"`
+
+เพื่อให้มันมันมีผลต่อสิ่งที่เราเปลียนแปลงนี้ ต้อง ปิดเปิด iterm2 ใหม่หรือรันคำสั่งนี้ เพื่อให้มัน reflect
+
+`source ~/.zshrc`
+
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
 ```bash
@@ -119,3 +156,5 @@ pbcopy < ~/.ssh/id_rsa.pub
 chmod 600 ~/.ssh/id_rsa
 chmod 644 ~/.ssh/id_rsa.pub
 ```
+You're Done!
+:smi:
