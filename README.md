@@ -104,6 +104,22 @@ Configuration Menu
 
 เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้ (แนะนำให้ไปเปลี่ยนที่ Text terminal ของ Mac ด้วย ไปที่ User Profile, Text แทป Font size 16-20 พอ)
 
+## Increase Terminal Font Size
+1. Open iTerm2 preferences
+2. Go to Profiles > Text
+3. I increase my font size to about 20px
+
+## เปลี่ยน  iTerm2 Colors to Custom Theme
+1. Open iTerm2
+2. Download my color profile by running the following command (will be added to Downloads folder): 
+`curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors`
+4. Open iTerm2 preferences
+5. Go to Profiles > Colors
+6. Import the downloaded color profile (coolnight)
+7. Select the color profile (coolnight)
+You can find other themes here: [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
+
+
 ## Install Development Tools
 
 เมื่อเรา install homebrew เสร็จ เราจะต้องรัน commands เพิ่มเติมอีก 2 คำสั่งเพื่อ add ไปที่ PATH เพื่อให้เรียกใช้งานได้ คำสั่งแรกมันจะสร้างไฟล์ไหม่ขีึ้นมาให้ชื่อ
