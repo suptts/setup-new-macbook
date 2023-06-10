@@ -4,19 +4,19 @@ Recommendation apps for macOS 2023 (all free!!!)
 
 ## Table of contents
 
-- [Chrome](#chrome)
-- [Homebrew](#homebrew)
-- [Development Tool](#development-tool)
+- [Install Chrome](#install-chrome)
+- [Install Homebrew](#install-homebrew)
+- [Install Development Tools](#install-development-tools)
 - [VSCode extensions](#vscode-extensions)
 - [NODE and NVM](#node-and-nvm)
 - [SSH Key](#ssh-key)
 
 
-## Chrome
+## Install Chrome
 
 สามารถ download และติดตั้งได้จาก link นี้
 
-## Homebrew
+## Install Homebrew
 
 Homebew เป็น software package manager สำหรับ Mac มันจะช่วยในการติดตั้งโปรแกรมต่างๆ ลงในเครื่อง mac เราผ่าน commandline ที่ terminal
 ติดตั้งโดยการรัน command line และเราต้องใส่ password ของเครื่องเพราะมันต้องการสิทธิ์ aministrator เพื่อ install
@@ -26,7 +26,7 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-## Development Tool
+## Install Development Tools
 
 เมื่อเรา install homebrew เสร็จ เราจะต้องรัน commands เพิ่มเติมอีก 2 คำสั่งเพื่อ add ไปที่ PATH เพื่อให้เรียกใช้งานได้ คำสั่งแรกมันจะสร้างไฟล์ไหม่ขีึ้นมาให้ชื่อ
 .zprofile เราสามารถใช้ nano หรือ vi เข้าไปอ่าน file content ส่วนคำสั่งที่ 2 เป็นการ register homebrew ไปที่ shell เราก็เรียกใช้งาน brew command ได้แล้วเช่น `brew --version` เป็นต้น
