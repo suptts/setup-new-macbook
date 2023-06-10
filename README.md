@@ -79,7 +79,7 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 
 `source ~/.zshrc`
 
-มันจะให้เรา configure powerlevel10k ดังนั้นเราต้องเลือก configuration option ที่ต้องการ ถ้าไม่ทราบให้ทำตามนี้ไปก่อน (เราสามารถกลับมา configure ใหม่ได้)
+มันจะให้เรา configure powerlevel10k ดังนั้นเราต้องเลือก configuration option ที่ต้องการ ถ้าไม่ทราบให้ทำตามนี้ไปก่อน (เราสามารถกลับมา configure ใหม่ได้ `p10k configure`)
 
 Configuration Menu
 
@@ -95,8 +95,28 @@ Configuration Menu
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "MesloLGS NF",
 ```
+กลับมาที่หน้า p10 configure
+- Does this look like a diamond (rotated square)? --> choice [ynq]: y 
+- Does this look like a lock? --> choice [ynrq]: y 
+- Do all these iconds fit between the crosses? --> choice [ynrq]: y
+- Prompt style --> choice [1234rq]: 3 (Rainbow)
+- Character Set --> choice [12rq]: 1 (Unicode)
+- Show current time?  --> choice [123rq]: 3 (12-hour format)
+- Prompt Separators --> choice [1234rq]: 1 (Angled)
+- Prompt Heads --> choice [1234rq]: 1 (Sharp)
+- Prompt Tails --> choice [1234rq]: 1 (Flat)
+- Prompt Height --> choice [12rq]: 2 (Two lines)
+- Prompt Connection --> choice [123rq]: 2 (Dotted)
+- Prompt Frame --> choice [1234rq]: 4 (Full)
+- Connection & Frame Color --> choice [1234rq]: 1 (Lightest)
+- Prompt Spacing --> choice [12rq]: 1 (Compact)
+- Icons --> choice [12rq]: 2 (Many icons)
+- Prompt Flow --> choice [12rq]: 1 (Concise)
+- Enable Transient Prompt? --> choice [ynrq]: n
+- Instant Prompt Mode --> choice [123rq]: 1 (recommended)
+- Powerlevel10k config file already exists. Overwrite ~/.p10k.azh?   --> choice [yrq]: y
 
-- Instruction 3
+เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้
 
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
