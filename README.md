@@ -21,7 +21,10 @@ Recommendation apps for macOS 2023 (all free!!!)
 Homebew เป็น software package manager สำหรับ Mac มันจะช่วยในการติดตั้งโปรแกรมต่างๆ ลงในเครื่อง mac เราผ่าน commandline ที่ terminal
 ติดตั้งโดยการรัน command line และเราต้องใส่ password ของเครื่องเพราะมันต้องการสิทธิ์ aministrator เพื่อ install
 
-`1`
+```bash
+xport HOMEBREW_NO_INSTALL_FROM_API=1
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 ## Development Tool
 
