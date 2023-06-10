@@ -161,6 +161,15 @@ code .
 
 `vim ~/.zshrc`
 
+อยู่ประมาณบรรทัดที่ 84
+
+`plugins=(git·zsh-autosuggestions·zsh-syntax-highlighting·web-search)`
+
+ส่ัง reload ไฟล์นี้เพื่อให้มีผล
+
+`source ~/.zshrc`
+
+ถ้าเราพิมพ์ git มันจะมี auto suggestion มาให้เพื่อประหยัดเวลาพิมพ์ ถ้าต้องการกด arrow up ถ้าไมเอา กด arrow down บนคีย์บอร์ด
 
 ## NODE and NVM
 
