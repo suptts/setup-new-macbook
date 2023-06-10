@@ -22,7 +22,7 @@ Homebew เป็น software package manager สำหรับ Mac มัน�
 ติดตั้งโดยการรัน command line และเราต้องใส่ password ของเครื่องเพราะมันต้องการสิทธิ์ aministrator เพื่อ install
 
 ```bash
-xport HOMEBREW_NO_INSTALL_FROM_API=1
+export HOMEBREW_NO_INSTALL_FROM_API=1
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
