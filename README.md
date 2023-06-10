@@ -57,12 +57,15 @@ code .
 
 แนะสำให้ติดตั้ง extenstion เหล่านี้ใน VSCode
 
-- Python
-- Git
-- Lint
-- Light server  สำหรับ view HTML page locally
+- vscode-icons เห็น icons 
+- Shell format สำหรับ syntax highlight
+- YAML สำหรับ derect code error เพราะมันดูยาก
+- Makefile tools สำหรับ make 
+- Remote – SSH สำหรับ ssh ไปยัง remote server จาก vscode screen
+- Live Server สำหรับ view HTML page locally
 - Rainbow CSV   ช่วยให้ตัวหนังสือมีสีอ่านง่าย
 - Prettier Code Formatter for Visual Studio Code  ช่วยจ้ด code ที่เขียนดูง่าย
+- Project Manager
 
 เมื่อเราเปิดโปรแกรมแล้วต้องการให้มัน pins ไว้ที่ tasks bard ด้านล้างให้ drange & drop icon program ที่ต้องการมาที่ pernanent area
 
