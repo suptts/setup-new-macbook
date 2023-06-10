@@ -19,7 +19,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 
 ## Install Chrome
 
-สามารถ download และติดตั้งได้จาก link นี้
+สามารถ download และติดตั้งได้จาก [link](https://www.google.com/chrome/)
 
 ## Install Homebrew
 
