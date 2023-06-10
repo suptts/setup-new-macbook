@@ -70,13 +70,33 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 
 `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
 
-จากนั้นให้เราเข้าเปิดไฟล์ ~/.zshrc เพื่อระบุ Theme ที่อยากได้ เช่นตัวอย่างนี้
+จากนั้นให้เราเข้าเปิดไฟล์ ~/.zshrc เพื่อระบุ Theme ที่อยากได้ เช่นตัวอย่างนี้ (อยู่ประมาณบรรทัดที่ 22) ให้ copy ค่านี้ไปใส่แทน
 
 `ZSH_THEME="powerlevel10k/powerlevel10k"`
 
+แก้ไขเสร็จสั่ง save แล้วปิดไฟล์
 เพื่อให้มันมันมีผลต่อสิ่งที่เราเปลียนแปลงนี้ ต้อง ปิดเปิด iterm2 ใหม่หรือรันคำสั่งนี้ เพื่อให้มัน reflect
 
 `source ~/.zshrc`
+
+มันจะให้เรา configure powerlevel10k ดังนั้นเราต้องเลือก configuration option ที่ต้องการ ถ้าไม่ทราบให้ทำตามนี้ไปก่อน (เราสามารถกลับมา configure ใหม่ได้)
+
+Configuration Menu
+
+- Install Meslo Nerd Font?  --> choice [ynq]: y เพื่อไป download font มาให้
+ให้เราปิด iterm2 เพื่อใช้งาน font นี้ (กด command + Q ) ที่ keyboard หรือใช้ mouse สั่ง quit จาก dock area (tasks bar) ด้านล่าง 
+- แนะนำให้ใช้ Font นี้กับ VSCode ด้วย ทำได้โดยการแก้ไขไฟล์ settings.json ใน vscode folder (Users>[yourname]>Library> Applicaiton Support> Code > User > settings.json
+
+บรรทัดที่ 3
+
+```vscode
+{
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+```
+
+- Instruction 3
 
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
