@@ -9,9 +9,9 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Install iTerm2](#install-iterm2)
 - [Install Git](#install-git)
 - [Install OhMyZsh](#install-ohmyzsh)
-- [Install Powerlevel10K](#install-powerlevel10k)
 - [Install Development Tools](#install-development-tools)
 - [Install VSCode extensions](#install-vscode-extensions)
+- [Install Powerlevel10K](#install-powerlevel10k)
 - [Install NODE/NVM](#install-node/nvm)
 - [Setup SSH-Key](#setup-ssh-key)
 
@@ -30,20 +30,6 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-## Install Development Tools
-
-เมื่อเรา install homebrew เสร็จ เราจะต้องรัน commands เพิ่มเติมอีก 2 คำสั่งเพื่อ add ไปที่ PATH เพื่อให้เรียกใช้งานได้ คำสั่งแรกมันจะสร้างไฟล์ไหม่ขีึ้นมาให้ชื่อ
-.zprofile เราสามารถใช้ nano หรือ vi เข้าไปอ่าน file content ส่วนคำสั่งที่ 2 เป็นการ register homebrew ไปที่ shell เราก็เรียกใช้งาน brew command ได้แล้วเช่น `brew --version` เป็นต้น
-
-```bash
-# Run คำสั่งเหล่านี้หลังการติตตั้ง Homebrew ให้ copy จากเครื่องตัวเอง เพราะ user จะไม่เหมือนกัน
-# Run these two commands in your terminal to add Homebrew to your PATH:
-    (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/supiwmi/.zprofile
-    eval "$(/usr/local/bin/brew shellenv)"
- 
- # ตรวจสอบโดยการเช็ค version
- brew --version
-```
 ## Install iTerm2
 
 เราติดตั้งด้วย brew command
@@ -117,6 +103,21 @@ Configuration Menu
 - Powerlevel10k config file already exists. Overwrite ~/.p10k.azh?   --> choice [yrq]: y
 
 เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้
+
+## Install Development Tools
+
+เมื่อเรา install homebrew เสร็จ เราจะต้องรัน commands เพิ่มเติมอีก 2 คำสั่งเพื่อ add ไปที่ PATH เพื่อให้เรียกใช้งานได้ คำสั่งแรกมันจะสร้างไฟล์ไหม่ขีึ้นมาให้ชื่อ
+.zprofile เราสามารถใช้ nano หรือ vi เข้าไปอ่าน file content ส่วนคำสั่งที่ 2 เป็นการ register homebrew ไปที่ shell เราก็เรียกใช้งาน brew command ได้แล้วเช่น `brew --version` เป็นต้น
+
+```bash
+# Run คำสั่งเหล่านี้หลังการติตตั้ง Homebrew ให้ copy จากเครื่องตัวเอง เพราะ user จะไม่เหมือนกัน
+# Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/supiwmi/.zprofile
+    eval "$(/usr/local/bin/brew shellenv)"
+ 
+ # ตรวจสอบโดยการเช็ค version
+ brew --version
+```
 
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
