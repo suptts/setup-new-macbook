@@ -159,6 +159,7 @@ code .
 
 ## Add Plugin
 
+`vim ~/.zshrc`
 
 
 ## NODE and NVM
