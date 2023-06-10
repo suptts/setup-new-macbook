@@ -117,7 +117,8 @@ Configuration Menu
 5. Go to Profiles > Colors
 6. Import the downloaded color profile (coolnight)
 7. Select the color profile (coolnight)
-You can find other themes here: [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
+
+สามารถหา themes อื่นได้ที่ [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
 
 
 ## Install Development Tools
