@@ -102,7 +102,7 @@ Configuration Menu
 - Instant Prompt Mode --> choice [123rq]: 1 (recommended)
 - Powerlevel10k config file already exists. Overwrite ~/.p10k.azh?   --> choice [yrq]: y
 
-เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้
+เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้ (แนะนำให้ไปเปลี่ยนที่ Text terminal ของ Mac ด้วย ไปที่ User Profile, Text แทป Font size 16-20 พอ)
 
 ## Install Development Tools
 
