@@ -12,6 +12,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Install Development Tools](#install-development-tools)
 - [Install VSCode extensions](#install-vscode-extensions)
 - [Install Powerlevel10K](#install-powerlevel10k)
+- [Add Plugins](#add-plugin)
 - [Install NODE/NVM](#install-node/nvm)
 - [Setup SSH-Key](#setup-ssh-key)
 
@@ -29,6 +30,18 @@ Homebew เป็น software package manager สำหรับ Mac มัน�
 export HOMEBREW_NO_INSTALL_FROM_API=1
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+## VSCode extensions
+
+แนะสำให้ติดตั้ง extenstion เหล่านี้ใน VSCode
+
+- Python
+- Git
+- Lint
+- Light server  สำหรับ view HTML page locally
+- Rainbow CSV   ช่วยให้ตัวหนังสือมีสีอ่านง่าย
+- Prettier Code Formatter for Visual Studio Code  ช่วยจ้ด code ที่เขียนดูง่าย
+
+เมื่อเราเปิดโปรแกรมแล้วต้องการให้มัน pins ไว้ที่ tasks bard ด้านล้างให้ drange & drop icon program ที่ต้องการมาที่ pernanent area
 
 ## Install iTerm2
 
@@ -118,8 +131,8 @@ Configuration Menu
 6. Import the downloaded color profile (coolnight)
 7. Select the color profile (coolnight)
 
-สามารถหา themes อื่นได้ที่ [Iterm2 Color Schemes](https://iterm2colorschemes.com/)
-
+สามารถหา themes อื่นได้ที่ [Iterm2 Color Schemes](https://iterm2colorschemes.com/) สามารถ download แล้ามา add เพิ่ม
+เวลาที่เปิด iterm2 จะเห็นว่ามันมืดนิดๆ (night)
 
 ## Install Development Tools
 
@@ -144,18 +157,9 @@ code .
 ```
 ให้ click ok ทั้งหมดเมื่อมีคำถามเรื่อง security บนเครื่องเรา และสามารถติดตั้ง VSCode extensions เช่น AWS codewhisperer
 
-## VSCode extensions
+## Add Plugin
 
-แนะสำให้ติดตั้ง extenstion เหล่านี้ใน VSCode
 
-- Python
-- Git
-- Lint
-- Light server  สำหรับ view HTML page locally
-- Rainbow CSV   ช่วยให้ตัวหนังสือมีสีอ่านง่าย
-- Prettier Code Formatter for Visual Studio Code  ช่วยจ้ด code ที่เขียนดูง่าย
-
-เมื่อเราเปิดโปรแกรมแล้วต้องการให้มัน pins ไว้ที่ tasks bard ด้านล้างให้ drange & drop icon program ที่ต้องการมาที่ pernanent area
 
 ## NODE and NVM
 
