@@ -127,6 +127,10 @@ yarn --version
 
 จากนั้นให้เราเข้าเปิดไฟล์ ~/.zshrc เพื่อระบุ Theme ที่อยากได้ เช่นตัวอย่างนี้ (อยู่ประมาณบรรทัดที่ 22) ให้ copy ค่านี้ไปใส่แทน
 
+`vim ~/.zshrc`
+
+แก้ตรงชื่อ THEME ให้เป็นแบบข้างล่าง
+
 `ZSH_THEME="powerlevel10k/powerlevel10k"`
 
 แก้ไขเสร็จสั่ง save แล้วปิดไฟล์
@@ -156,7 +160,7 @@ Configuration Menu
 - Do all these iconds fit between the crosses? --> choice [ynrq]: y
 - Prompt style --> choice [1234rq]: 3 (Rainbow)
 - Character Set --> choice [12rq]: 1 (Unicode)
-- Show current time?  --> choice [123rq]: 3 (12-hour format)
+- Show current time?  --> choice [012rq]: 3 (12-hour format)
 - Prompt Separators --> choice [1234rq]: 1 (Angled)
 - Prompt Heads --> choice [1234rq]: 1 (Sharp)
 - Prompt Tails --> choice [1234rq]: 1 (Flat)
