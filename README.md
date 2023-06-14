@@ -179,8 +179,10 @@ Configuration Menu
 
 ## เปลี่ยน  iTerm2 Colors to Custom Theme
 1. Open iTerm2
-2. Download my color profile by running the following command (will be added to Downloads folder): 
+2. Download my color profile by running the following command (will be added to Downloads folder):
+   
 `curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors`
+
 4. Open iTerm2 preferences
 5. Go to Profiles > Colors
 6. Import the downloaded color profile (coolnight)
