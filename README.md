@@ -160,7 +160,7 @@ Configuration Menu
 - Do all these iconds fit between the crosses? --> choice [ynrq]: y
 - Prompt style --> choice [1234rq]: 3 (Rainbow)
 - Character Set --> choice [12rq]: 1 (Unicode)
-- Show current time?  --> choice [012rq]: 3 (12-hour format)
+- Show current time?  --> choice [n12rq]: 1 (12-hour format)
 - Prompt Separators --> choice [1234rq]: 1 (Angled)
 - Prompt Heads --> choice [1234rq]: 1 (Sharp)
 - Prompt Tails --> choice [1234rq]: 1 (Flat)
@@ -199,9 +199,9 @@ Configuration Menu
 
 `vim ~/.zshrc`
 
-อยู่ประมาณบรรทัดที่ 84
+อยู่ประมาณบรรทัดที่ 80
 
-`plugins=(git·zsh-autosuggestions·zsh-syntax-highlighting·web-search)`
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 ส่ัง reload ไฟล์นี้เพื่อให้มีผล (syntax highlight ทำให้คำส่ังมีสี, web-search ส่ังเปิด webbrowser เช่นพิมพ์ว่า `google zsh` มันจะค้นหาใน chrome ให้เรา
 
