@@ -21,13 +21,6 @@ Recommendation apps for macOS 2023 (all free!!!)
 
 สามารถ download และติดตั้งได้จาก [link](https://www.google.com/chrome/)
 
-## Install iTerm2
-
-เราติดตั้งด้วย brew command
-
-`brew install --cask iterm2`
-
-เมือติดตั้งแล้วให้เราเปลี่ยนมาใช้ iterm2 แทน 
 
 ## Install Homebrew
 
@@ -52,6 +45,13 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
  # ตรวจสอบโดยการเช็ค version
  brew --version
 ```
+## Install iTerm2
+
+เราติดตั้งด้วย brew command
+
+`brew install --cask iterm2`
+
+เมือติดตั้งแล้วให้เราเปลี่ยนมาใช้ iterm2 แทน 
 
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
