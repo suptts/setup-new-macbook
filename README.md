@@ -238,6 +238,7 @@ chmod 644 ~/.ssh/id_rsa.pub
 ```
 You can use Ctrl+U to clear up to the beginning.
 You can use Ctrl+W to delete just a word.
+You can also use Ctrl+C to cancel.
 ```
 You're Done!
 😙 👏
