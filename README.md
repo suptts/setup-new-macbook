@@ -220,7 +220,7 @@ ssh-keygen -t rsa -b 4096 -C "EMAIL"
 # Start ssh agent
 eval "$(ssh-agent -s)"
 
-# Copy the key to a server
+# Copy the key to a server (Optional ไม่ต้องทำถ้าไม่มี server ให้ลอง)
 ssh-copy-id username@remote_host
 หรือ
 cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys \
