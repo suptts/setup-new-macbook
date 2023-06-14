@@ -15,6 +15,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Install Powerlevel10K](#install-powerlevel10k)
 - [Add Plugins](#add-plugin)
 - [Setup SSH-Key](#setup-ssh-key)
+- [Terminal Shortcut](#terminal-shortcut)
 
 
 ## Install Chrome
@@ -231,6 +232,12 @@ pbcopy < ~/.ssh/id_rsa.pub
 # Fixing permission keys
 chmod 600 ~/.ssh/id_rsa
 chmod 644 ~/.ssh/id_rsa.pub
+```
+
+# Terminal Shortcut
+```
+You can use Ctrl+U to clear up to the beginning.
+You can use Ctrl+W to delete just a word.
 ```
 You're Done!
 😙 👏
