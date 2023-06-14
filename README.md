@@ -220,9 +220,6 @@ ssh-keygen -t rsa -b 4096 -C "EMAIL"
 # Start ssh agent
 eval "$(ssh-agent -s)"
 
-# Mac OS 
-ssh-add -K ~/.ssh/id_rsa
-
 # Copy the key to a server
 ssh-copy-id username@remote_host
 หรือ
