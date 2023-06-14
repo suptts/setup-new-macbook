@@ -5,11 +5,11 @@ Recommendation apps for macOS 2023 (all free!!!)
 ## Table of contents
 
 - [Install Chrome](#install-chrome)
+- [Install iTerm2](#install-iterm2)
 - [Install Homebrew](#install-homebrew)
 - [Install Development Tools](#install-development-tools)
 - [Install VSCode extensions](#install-vscode-extensions)
 - [Install NODE/NVM](#install-node/nvm)
-- [Install iTerm2](#install-iterm2)
 - [Install Git](#install-git)
 - [Install OhMyZsh](#install-ohmyzsh)
 - [Install Powerlevel10K](#install-powerlevel10k)
@@ -20,6 +20,14 @@ Recommendation apps for macOS 2023 (all free!!!)
 ## Install Chrome
 
 สามารถ download และติดตั้งได้จาก [link](https://www.google.com/chrome/)
+
+## Install iTerm2
+
+เราติดตั้งด้วย brew command
+
+`brew install --cask iterm2`
+
+เมือติดตั้งแล้วให้เราเปลี่ยนมาใช้ iterm2 แทน 
 
 ## Install Homebrew
 
@@ -99,14 +107,6 @@ yarn --version
 ```
 หมายเหตุ macos จะมาพร้อมกับ python version 3.9 เราไม่ต้องติดตั้งแต่เราอาจต้องการ version ใหม่กว่า เช่น 3.10 เราต้องติดตั้งเองเช่นใช้ homebrew
 
-## Install iTerm2
-
-เราติดตั้งด้วย brew command
-
-`brew install --cask iterm2`
-
-เมือติดตั้งแล้วให้เราเปลี่ยนมาใช้ iterm2 แทน 
-
 ## Install Git
 
 เราติดตั้งด้วย brew command
@@ -175,12 +175,7 @@ Configuration Menu
 - Instant Prompt Mode --> choice [123rq]: 1 (recommended)
 - Powerlevel10k config file already exists. Overwrite ~/.p10k.azh?   --> choice [yrq]: y
 
-เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้ (แนะนำให้ไปเปลี่ยนที่ Text terminal ของ Mac ด้วย ไปที่ User Profile, Text แทป Font size 16-20 พอ)
-
-## Increase Terminal Font Size
-1. Open iTerm2 preferences
-2. Go to Profiles > Text
-3. I increase my font size to about 20px
+เสร็จแล้วจะเห็นว่า prompt เปลียนไปตามที่เรา configure ไว้ (แนะนำให้ไปเปลี่ยนที่ Text iTerm2 ของ Mac ด้วย ไปที่ User Profile, Text แทป Font size 16-20 พอ)
 
 ## เปลี่ยน  iTerm2 Colors to Custom Theme
 1. Open iTerm2
