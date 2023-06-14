@@ -228,7 +228,7 @@ cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && touch ~/.ss
 
 
 # Add new SSH key to Github or Other Providers (public key)
-cat ~/.ssh.id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 pbcopy < ~/.ssh/id_rsa.pub
 
 # Fixing permission keys
