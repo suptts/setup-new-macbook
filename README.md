@@ -18,6 +18,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Terminal Shortcut](#terminal-shortcut)
 - [Install Terraform](#install-terraform)
 - [Install the Azure CLI tool](#install-the-azure-cli-tool)
+- [Install Microsoft Remote Desktop](#install-microsoft-remote-desktop)
 
 ## Install Chrome
 
@@ -317,6 +318,10 @@ terraform state list
 เมื่อเลิกใช้งานให้ลบ resource นี้ทิ้ง
 
 `terraform destroy --auto-approve`
+
+## Install Microsoft Remote Desktop
+
+`brew install --cask microsoft-remote-desktop`
 
 You're Done!
 😙 👏
