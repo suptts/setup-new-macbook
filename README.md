@@ -76,6 +76,7 @@ code .
 - Rainbow CSV   ช่วยให้ตัวหนังสือมีสีอ่านง่าย
 - Prettier Code Formatter for Visual Studio Code  ช่วยจ้ด code ที่เขียนดูง่าย
 - Project Manager
+- terraform
 
 เมื่อเราเปิดโปรแกรมแล้วต้องการให้มัน pins ไว้ที่ tasks bard ด้านล้างให้ drange & drop icon program ที่ต้องการมาที่ pernanent area
 
