@@ -17,7 +17,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Setup SSH-Key](#setup-ssh-key)
 - [Terminal Shortcut](#terminal-shortcut)
 - [Install Terraform](#install-terraform)
-
+- [Install the Azure CLI tool](#install-the-azure-cli-tool)
 
 ## Install Chrome
 
@@ -261,6 +261,40 @@ You can also use Ctrl+C to cancel.
 4. รันคำสั่งข้างล่างเพื่อ upgrade เป็น latest Terraform version
 
 `brew upgrade hashicorp/tap/terraform`
+
+# Install the Azure CLI tool
+
+``
+brew update && brew install azure-cli
+az login
+az account set --subscription "35akss-subscription-id"
+az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
+mkdir learn-terraform-azure
+cd learn-terraform-azure
+```
+
+```
+# Configure the Azure provider
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.0.2"
+    }
+  }
+
+  required_version = ">= 1.1.0"
+}
+
+provider "azurerm" {
+  features {}
+}
+
+resource "azurerm_resource_group" "rg" {
+  name     = "myTFResourceGroup"
+  location = "westus2"
+}
+```
 
 You're Done!
 😙 👏
