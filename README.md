@@ -273,6 +273,8 @@ mkdir learn-terraform-azure
 cd learn-terraform-azure
 ```
 
+สร้างไฟล์ main.tf แล้ว copy ข้อมูลข้างล่างมาใส่ในไฟล์นี้
+
 ```
 # Configure the Azure provider
 terraform {
