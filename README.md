@@ -16,6 +16,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Add Plugins](#add-plugin)
 - [Setup SSH-Key](#setup-ssh-key)
 - [Terminal Shortcut](#terminal-shortcut)
+- [Install Terraform](#install-terraform)
 
 
 ## Install Chrome
@@ -240,5 +241,26 @@ You can use Ctrl+U to clear up to the beginning.
 You can use Ctrl+W to delete just a word.
 You can also use Ctrl+C to cancel.
 ```
+
+# Install Terraform
+
+ติดตั้งโดยใช้ Homebrew Mac
+
+1. เริ่มด้วยการ install the HashiCorp tap, a repository of all our Homebrew packages
+
+`brew tap hashicorp/tap`
+
+2. Install Terraform ด้วย hashicorp/tap/terraform
+
+`brew install hashicorp/tap/terraform`
+
+3. ให้ update to the latest version of Terraform, first update Homebrew
+
+`brew update`
+
+4. รันคำสั่งข้างล่างเพื่อ upgrade เป็น latest Terraform version
+
+`brew upgrade hashicorp/tap/terraform`
+
 You're Done!
 😙 👏
