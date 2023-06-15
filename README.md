@@ -312,7 +312,6 @@ terraform validate
 terraform apply
 terraform show
 terraform state list
-terraform state
 ```
 You're Done!
 😙 👏
