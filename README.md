@@ -269,8 +269,11 @@ brew update && brew install azure-cli
 az login
 az account set --subscription "6ecdc821-xxxx-xxxx-xxxx-xxxxxxxxx"
 az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
+az account list-locations -o table
+
 mkdir learn-terraform-azure
 cd learn-terraform-azure
+
 ```
 
 สร้างไฟล์ main.tf แล้ว copy ข้อมูลข้างล่างมาใส่ในไฟล์นี้
