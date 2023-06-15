@@ -313,5 +313,8 @@ terraform apply
 terraform show
 terraform state list
 ```
+เมื่อเลิกใช้งานให้ลบ resource นี้ทิ้ง
+`terraform destroy --auto-approve`
+
 You're Done!
 😙 👏
