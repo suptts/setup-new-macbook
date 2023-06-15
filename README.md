@@ -267,7 +267,7 @@ You can also use Ctrl+C to cancel.
 ```
 brew update && brew install azure-cli
 az login
-az account set --subscription "35akss-subscription-id"
+az account set --subscription "6ecdc821-xxxx-xxxx-xxxx-xxxxxxxxx"
 az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
 mkdir learn-terraform-azure
 cd learn-terraform-azure
