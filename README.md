@@ -264,7 +264,7 @@ You can also use Ctrl+C to cancel.
 
 # Install the Azure CLI tool
 
-``
+```
 brew update && brew install azure-cli
 az login
 az account set --subscription "35akss-subscription-id"
