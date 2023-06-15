@@ -296,5 +296,18 @@ resource "azurerm_resource_group" "rg" {
 }
 ```
 
+### Initialize your Terraform configuration
+```
+terraform init
+terraform fmt
+terraform validate
+```
+### Apply your Terraform Configuration
+```
+terraform apply
+terraform show
+terraform state list
+terraform state
+```
 You're Done!
 😙 👏
