@@ -154,9 +154,11 @@ Configuration Menu
 
 ```vscode
 {
-    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "MesloLGS NF",
+    "files.autoSave": "onFocusChange",
+}
 ```
 กลับมาที่หน้า p10 configure
 - Does this look like a diamond (rotated square)? --> choice [ynq]: y 
