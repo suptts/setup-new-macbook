@@ -87,7 +87,8 @@ code .
 เราจะติดตั้ง nvm เพื่อช่วยให้เราสามารถติดตั้ง node ได้หลายๆ version บนเครื่องเราและสั่ง switch ไปมาระหว่าง version ที่ต้องการได้ง่ายๆ
 ติดตั้ง nvm โดยการรันคำสั่งข้างล่างนี้ก่อน
 เราจะใช้ node เมื่อมีการพัตนา app ด้วย programming language สำหรับ cross-platform tools เช่น NativeScript, ReacNative, Ionic เป็นต้น
-`curl `
+
+`brew install nvm `
 
 จะสั่งเกตุว่าเมื่อติดตั้ง nvm แล้ว มันจะแก้ไขไฟล์ .zprofile โดยการเพิ่ม 
 เราดูข้อมูลได้ด้วย vim หรือ vscode 
