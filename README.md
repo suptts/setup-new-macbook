@@ -39,15 +39,17 @@ export HOMEBREW_NO_INSTALL_FROM_API=1
 เมื่อเรา install homebrew เสร็จ เราจะต้องรัน commands เพิ่มเติมอีก 2 คำสั่งเพื่อ add ไปที่ PATH เพื่อให้เรียกใช้งานได้ คำสั่งแรกมันจะสร้างไฟล์ไหม่ขีึ้นมาให้ชื่อ
 .zprofile เราสามารถใช้ nano หรือ vi เข้าไปอ่าน file content ส่วนคำสั่งที่ 2 เป็นการ register homebrew ไปที่ shell เราก็เรียกใช้งาน brew command ได้แล้วเช่น `brew --version` เป็นต้น
 
+สองคำสั่งข้างล่างนี้ให้รันเฉพาะเครื่องที่เป็น Apple Silicon Macbook เท่านั้น
+
 ```bash
-# Run คำสั่งเหล่านี้หลังการติตตั้ง Homebrew ให้ copy จากเครื่องตัวเอง เพราะ user จะไม่เหมือนกัน
-# Run these two commands in your terminal to add Homebrew to your PATH:
-    (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/supiwmi/.zprofile
-    eval "$(/usr/local/bin/brew shellenv)"
- 
- # ตรวจสอบโดยการเช็ค version
- brew --version
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+ 
+# ตรวจสอบโดยการเช็ค version
+
+`brew --version`
+
 ## Install iTerm2
 
 เราติดตั้งด้วย brew command
