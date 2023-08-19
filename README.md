@@ -19,6 +19,7 @@ Recommendation apps for macOS 2023 (all free!!!)
 - [Install Terraform](#install-terraform)
 - [Install the Azure CLI tool](#install-the-azure-cli-tool)
 - [Install Microsoft Remote Desktop](#install-microsoft-remote-desktop)
+- [Install GitHub Desktop](#install-github-desktop)
 
 ## Install Chrome
 
@@ -328,6 +329,10 @@ terraform state list
 ## Install Microsoft Remote Desktop
 
 `brew install --cask microsoft-remote-desktop`
+
+# Install GitHub Desktop
+`brew install --appdir="/Applications" github`
+
 
 You're Done!
 😙 👏
