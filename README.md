@@ -96,13 +96,9 @@ brew install visual-studio-code
 `brew install node`
 
 ```
+brew update
 brew install nvm
-
-echo "source $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
+source $(brew --prefix nvm)/nvm.sh
 ```
 
 จะสั่งเกตุว่าเมื่อติดตั้ง nvm แล้ว มันจะแก้ไขไฟล์ .zprofile โดยการเพิ่ม 
