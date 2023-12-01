@@ -99,6 +99,7 @@ brew install visual-studio-code
 brew update
 brew install nvm
 source $(brew --prefix nvm)/nvm.sh
+nvm -v
 ```
 
 จะสั่งเกตุว่าเมื่อติดตั้ง nvm แล้ว มันจะแก้ไขไฟล์ .zprofile โดยการเพิ่ม 
