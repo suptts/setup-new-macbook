@@ -61,9 +61,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 เมื่อเรามี brew command เราก็สามารถสั่งให้มันติดตั้งโปรแกรมอื่นๆได้โดยที่เราไม่ต้องไป download แล้วนำมาติดตั้งหรือลากไปที่ application แบบ manual 
 ทดสอบโดยการติดตั้ง vscode ลงบนเครื่องนี้โดยใช้ homebrew แล้วมันจะนำไปติดตั้งใน application folder ให้อัตโนมัติ
 ```bash
-brew install --cask visual-studio-code
-code .
+brew install visual-studio-code
 ```
+เมื่อเปิด vscode ได้แล้วให้ configure Auto Save (เลือก File--> Auto Save) และ เลือก Command Palette (รูป Gear) (พิมพ์ Shell Command: เลือก Shell Command: Install 'code' command in PATH
+
+
 ให้ click ok ทั้งหมดเมื่อมีคำถามเรื่อง security บนเครื่องเรา และสามารถติดตั้ง VSCode extensions เช่น AWS codewhisperer
 
 ## Install Development Tools
